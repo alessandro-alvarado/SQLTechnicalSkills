@@ -21,60 +21,69 @@ columns, primary keys, and relationships.
 <br />
 
 <b>2. Data Insertion and Updates</b>
-- <b>Interface Design:</b> I implemented interfaces, such as the Habitat interface, to enforce
-a contract for habitat size calculation and solitary status management across different
-animal classes. This highlights my understanding of abstraction and modular design in
-Java.
+- Skilled in inserting data into tables using INSERT INTO statements.
+
+- Expertise in updating specific records based on conditions using UPDATE statements to
+modify existing data.
+
+- <b>Example:</b> Inserting records for a customer and updating sales dates in sales table.
 <br />
 
 <b>3. Querying Data</b>
-- <b>ArrayLists:</b> I utilized the ArrayList class to manage dynamic collections of objects.
-For example, in the AnimalInventory class, I stored various animal objects and
-manipulated them effectively using methods like .add() and .get() to demonstrate
-my understanding of collections.
+- Proficient in constructing both simple and complex queries to retrieve specific data from
+one or multiple tables.
 
-- <b>Iteration:</b> I used loops to iterate through lists of objects, enabling efficient data
-processing. For example, in my figureSizes() method, I iterated over a list of
-animals and calculated their required habitat size.
+- Able to use SELECT with multiple filtering conditions, sorting, and aggregation to extract
+meaningful data.
+
+- <b>Example:</b>  Querying inventory items, employee details, and order data using conditions
+like date ranges and price filters.
 <br />
 
 <b>4. Join Operations</b>
-- <b>Overriding Methods:</b> I have demonstrated proficiency in overriding methods such as
-toString(), calcSize(), and setSolitary() to provide specialized functionality
-in each subclass. This allows my code to be flexible and adaptable to different animal
-types while adhering to a common interface.
+- Experienced in performing inner and outer joins to combine data from multiple tables.
 
-- <b>Polymorphism in Action:</b> I showcased polymorphism in the MyZoo class by creating a
-single method (figureSizes()) that handles different types of animals, each with its
-own implementation of calcSize(), allowing the system to process diverse objects in a
-uniform way.
+- Knowledgeable in handling one-to-many, many-to-one, and many-to-many relationships
+with joins.
+
+- <b>Example:</b>  Retrieving employee and department data using inner joins, selecting
+consumers and orders using multi-table joins.
 <br />
 
 <b>5.  Data Manipulation and Integrity</b>
-- <b>Class Construction:</b> I have designed well-structured classes with constructors that
-initialize objects with specific attributes, ensuring the correct setup for each animal
-object. I also used constructor chaining (super()) to call parent class constructors for
-shared attributes.
+- Expertise in updating data types and column constraints using ALTER TABLE.
 
-- <b>Data Handling:</b> My projects involve managing various attributes for each animal type,
-such as species, size, and social behavior. This demonstrates my ability to organize data
-within objects and provide meaningful interactions between them.
+- Experienced with adding, renaming, and dropping columns, modifying column data
+types, and applying constraints such as NOT NULL.
+
+- <b>Example:</b>  Altering the customer table to modify column types and constraints, such as
+changing ZIP code to CHAR(10).
 <br />
 
 <b>6. Delete Operations</b>
-- <b>Code Organization:</b> I follow industry-standard Java conventions, such as appropriate
-use of curly braces, indentation, and class/method naming. This makes my code easy to
-read and maintain.
+- Skilled in using DELETE statements to remove specific data while preserving database
+integrity.
 
-- <b>Comments & Documentation:</b> I ensure all key sections of my code are
-well-commented, providing clear explanations for class designs, methods, and complex
-logic. This enhances the maintainability of the code and ensures others can easily
-understand and modify it if needed.
+- <b>Example:</b>  Deleting records from the sales table based on conditions like sales ID.
 <br />
 
+
 <b>7. Database Normalization and Data Integrity</b>
+- Understanding of database normalization principles to minimize data redundancy.
+
+- Ability to design and maintain databases with normalized tables to ensure consistency
+and integrity.
+
 
 <b>8. Advanced SQL Features</b>
+- Familiar with advanced SQL features, including aggregate functions, subqueries, and
+data grouping.
+
+- Expertise in using JOIN and GROUP BY to manipulate and summarize data for reporting
+and analysis.
+
+- <b>Example:</b> Complex query for inventory analysis based on price and quantity.
+
 
 <b>9. SQL Optimization</b>
 
