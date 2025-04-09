@@ -1,38 +1,33 @@
 <h1>SQL Technical Skills</h1>
 
 <h2>Introduction</h2>
-I am an enthusiastic and detail-oriented programmer with a strong foundation in object-oriented
-programming (OOP) and Java development. My academic and project work has enabled me to
-build a robust skill set, particularly in designing and implementing efficient systems using
-modern programming practices. I have a passion for solving problems and writing clean,
-maintainable code. Below is an overview of the skills I have developed through various projects.
+As a highly skilled SQL developer, I have developed a robust understanding of SQL syntax and
+the application of key SQL functions in real-world scenarios. The following is a detailed
+summary of my core skills, including table creation, query writing, database manipulation, and
+data integrity management.
 <br />
 
 <h2>Core Skills</h2>
 
-<b>1. Object-Oriented Programming (OOP)</b>
-- <b>Inheritance:</b> I have a solid understanding of inheritance and have applied it in multiple
-projects to create a hierarchy of classes. For example, in my Animal, Mammal,
-Carnivore, Herbivore, and Bird classes, I used inheritance to share common
-behavior while allowing specific attributes for each subclass.
+<b>1.  Table Creation and Data Definition</b>
+- Proficient in creating and managing relational database structures by designing tables
+and defining data types
 
-- <b>Polymorphism:</b> I have experience with method overriding to provide subclass-specific
-implementations of inherited methods. This is demonstrated in my projects with methods
-like calcSize() and setSolitary() that behave differently based on the subclass.
+- Experienced with implementing primary keys, foreign keys, and constraints to ensure
+data integrity.
 
-- <b>Encapsulation:</b> I applied encapsulation principles by controlling access to class
-attributes using access modifiers (private, protected) and providing appropriate
-getters/setters.
+- <b>Example:</b> Creation of customer, sales, employee, and department tables, defining
+columns, primary keys, and relationships.
 <br />
 
-<b>2. Interfaces</b>
+<b>2. Data Insertion and Updates</b>
 - <b>Interface Design:</b> I implemented interfaces, such as the Habitat interface, to enforce
 a contract for habitat size calculation and solitary status management across different
 animal classes. This highlights my understanding of abstraction and modular design in
 Java.
 <br />
 
-<b>3. Collections Framework</b>
+<b>3. Querying Data</b>
 - <b>ArrayLists:</b> I utilized the ArrayList class to manage dynamic collections of objects.
 For example, in the AnimalInventory class, I stored various animal objects and
 manipulated them effectively using methods like .add() and .get() to demonstrate
@@ -43,7 +38,7 @@ processing. For example, in my figureSizes() method, I iterated over a list of
 animals and calculated their required habitat size.
 <br />
 
-<b>4. Method Overriding and Polymorphic Behavior</b>
+<b>4. Join Operations</b>
 - <b>Overriding Methods:</b> I have demonstrated proficiency in overriding methods such as
 toString(), calcSize(), and setSolitary() to provide specialized functionality
 in each subclass. This allows my code to be flexible and adaptable to different animal
@@ -55,7 +50,7 @@ own implementation of calcSize(), allowing the system to process diverse objects
 uniform way.
 <br />
 
-<b>5. Class Design & Constructors</b>
+<b>5.  Data Manipulation and Integrity</b>
 - <b>Class Construction:</b> I have designed well-structured classes with constructors that
 initialize objects with specific attributes, ensuring the correct setup for each animal
 object. I also used constructor chaining (super()) to call parent class constructors for
@@ -66,7 +61,7 @@ such as species, size, and social behavior. This demonstrates my ability to orga
 within objects and provide meaningful interactions between them.
 <br />
 
-<b>6. Java Syntax & Conventions</b>
+<b>6. Delete Operations</b>
 - <b>Code Organization:</b> I follow industry-standard Java conventions, such as appropriate
 use of curly braces, indentation, and class/method naming. This makes my code easy to
 read and maintain.
@@ -76,6 +71,12 @@ well-commented, providing clear explanations for class designs, methods, and com
 logic. This enhances the maintainability of the code and ensures others can easily
 understand and modify it if needed.
 <br />
+
+<b>7. Database Normalization and Data Integrity</b>
+
+<b>8. Advanced SQL Features</b>
+
+<b>9. SQL Optimization</b>
 
 <h2>Order of Classes</h2>
 
