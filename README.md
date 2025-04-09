@@ -67,13 +67,12 @@ integrity.
 - <b>Example:</b>  Deleting records from the sales table based on conditions like sales ID.
 <br />
 
-
 <b>7. Database Normalization and Data Integrity</b>
 - Understanding of database normalization principles to minimize data redundancy.
 
 - Ability to design and maintain databases with normalized tables to ensure consistency
 and integrity.
-
+<br />
 
 <b>8. Advanced SQL Features</b>
 - Familiar with advanced SQL features, including aggregate functions, subqueries, and
@@ -82,22 +81,12 @@ data grouping.
 - Expertise in using JOIN and GROUP BY to manipulate and summarize data for reporting
 and analysis.
 
-- <b>Example:</b> Complex query for inventory analysis based on price and quantity.
-
+- <b>Example:</b>  Complex query for inventory analysis based on price and quantity.
+<br />
 
 <b>9. SQL Optimization</b>
-
-<h2>Order of Classes</h2>
-
-- MyZoo
-- Animal (implements Habitat)
-- Mammal (extends Animal)
-- Carnivore (extends Mammal)
-- Herbivore (extends Mammal)
-- Bird (extends Animal)
-- Habitat
-- AnimalInventory
-- Results (Shows product of the project)
+- Capable of optimizing queries to improve performance, particularly when dealing with
+large datasets or complex queries.
 
 <!--
  ```diff
