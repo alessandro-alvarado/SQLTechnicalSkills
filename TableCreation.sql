@@ -42,16 +42,16 @@ CREATE TABLE customer (
     customer_id INT PRIMARY KEY,
     last_name VARCHAR(30),
     first_name VARCHAR(30),
-    middle_initial CHAR(1), -- Fixed typo from 'middle_intitial'
+    middle_initial CHAR(1),  -- Fixed typo from 'middle_intitial'
     monthly_fee INT,
     date_of_use DATE,
     weight FLOAT,
     city VARCHAR(30),
-    us_state CHAR(2), -- Used CHAR(2) to enforce two-letter state codes
+    us_state CHAR(2),        -- Used CHAR(2) to enforce two-letter state codes
     average_attendance INT,
     machine INT REFERENCES machine(machine_id)
 );
-
+										
 -- Table 3 --
 -- Dropping existing tables if they exist
 DROP TABLE IF EXISTS dress;
@@ -73,13 +73,13 @@ CREATE TABLE dress (
     dress_size INT NOT NULL,
     dress_type VARCHAR(50),
     color VARCHAR(30),
-    zipper BIT, -- Assuming this stores a boolean (0 or 1)
+    zipper BIT,              -- Assuming this stores a boolean (0 or 1)
     purchase_price DECIMAL(10,2),
     selling_price DECIMAL(10,2),
     date_acquired DATE,
     brand INT NOT NULL REFERENCES brand(brand_id)
 );
-
+										
 -- Single Tables --
 --1: Retrieve employees born in the 20th century with a commission rate above 10%.
 SELECT last_name, commission_rate, birth_date
