@@ -4,24 +4,24 @@ DROP TABLE customer;
 
 -- Creating the customer table with various attributes
 CREATE TABLE customer (
-    cust_id INT PRIMARY KEY,  -- Unique identifier for each customer
-    company_name VARCHAR(30), -- Name of the company
-    company_age INT,  -- Age of the company in years
-    c_address VARCHAR(30),  -- Street address
-    c_city VARCHAR(25),  -- City
-    c_state VARCHAR(2),  -- State (2-letter code)
-    c_zip INT,  -- ZIP code (to be later altered)
-    days_absent NUMERIC(5,1),  -- Number of days the customer was absent
+    cust_id INT PRIMARY KEY,     -- Unique identifier for each customer
+    company_name VARCHAR(30),    -- Name of the company
+    company_age INT,             -- Age of the company in years
+    c_address VARCHAR(30),       -- Street address
+    c_city VARCHAR(25),          -- City
+    c_state VARCHAR(2),          -- State (2-letter code)
+    c_zip INT,                   -- ZIP code (to be later altered)
+    days_absent NUMERIC(5,1),    -- Number of days the customer was absent
     ave_earnings NUMERIC(10,2),  -- Average earnings
-    poc_last_name VARCHAR(30),  -- Point of contact's last name
-    poc_phone VARCHAR(20),  -- Point of contact's phone number (to be later dropped)
-    poc_pin VARCHAR(8)  -- PIN for the point of contact (to be later altered)
+    poc_last_name VARCHAR(30),   -- Point of contact's last name
+    poc_phone VARCHAR(20),       -- Point of contact's phone number (to be later dropped)
+    poc_pin VARCHAR(8)           -- PIN for the point of contact (to be later altered)
 );
 
 -- Creating the sales table
 CREATE TABLE sales (
     sales_id INT PRIMARY KEY,  -- Unique sales transaction ID
-    type CHAR(1) CHECK (type = 'R' OR type = 'L'),  -- Sale type: Remote (R) or Local (L)
+    type CHAR(1) CHECK (type = 'R' OR type = 'L'),       -- Sale type: Remote (R) or Local (L)
     quantity INT,  -- Quantity of items sold
     sales_amount MONEY,  -- Total sales amount
     customer INT NOT NULL REFERENCES customer (cust_id)  -- Foreign key linking to customer
